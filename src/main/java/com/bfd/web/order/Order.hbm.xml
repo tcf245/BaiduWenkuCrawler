@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<hibernate-mapping> 
+    <class name="com.bfd.order.Order" table="T1_CLO_ORDERS" schema="CTCS"> 
+        <id name="orderId" type="java.lang..Long">             
+			<column name="ORDER_ID" scale="0" />           
+    		<generator class="native"> 
+        		<param name="sequences">sequences_orderId</param>             
+			</generator>        
+ 		</id>
+	</class>
+</hibernate-mapping> 
