@@ -86,3 +86,8 @@ $RECYCLE.BIN/
 out/
 target/
 log/
+etc/
+
+# IDE files
+*.iml
+*.data
